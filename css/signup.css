@@ -1,0 +1,35 @@
+.box_radio{
+    display: block;
+    width: 200px;
+    height: 30px;
+    margin-left: 50px;
+}
+.chbox{
+    margin-left: 30px;
+}
+.signup_btn{
+    display: block;
+    width: 240px;
+    height: 40px;
+    border:1px solid #DDDDDD ;
+    background: #00bbd7;
+    font-size: 18px;
+    color: white;
+    margin-left: 50px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.waring{
+    width: 200px;
+    height:40px;
+}
+.remind{
+    display: none;
+    width: 200px;
+    height:40px;
+    text-align: center;
+    line-height: 40px;
+    margin-left: 50px;
+    color: red;
+}
+

@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ol,ul{
+    list-style: none;
+}
+.header{
+    width: 100%;
+    height: 112px;
+    /*background: ;*/
+    border-bottom:solid;
+}
+.inner_wrap{
+    width: 1225px;
+    height: 112px;
+    background: #CCCCCC;
+    margin: 0 auto;
+}
+.sty_title{
+    width: 145px;
+    height: 80px;
+    background: #00bbd7;
+    text-align: center;
+    line-height: 80px;
+    margin-top:32px;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 22px;
+    color: white;
+}
+.wrap{
+    width: 1225px;
+    height: 500px;
+    /*background: red;*/
+    margin: 0 auto;
+}
+.title_list{
+    height: 63px;
+    background: red;
+}
+.title_list th{
+    width: 200px;
+    margin-left: 10px;
+}
+.car_product{
+    height: 108px;
+    background: #DDDDDD;
+    text-align: center;
+}
+.amount{
+    width: 138px;
+    height: 40px;
+    margin: 0 auto;
+}
+.btn-decrease{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    display: inline-block;
+    width: 35px;
+    height: 30px;
+    text-align: center;
+    border: 1px solid black;
+    line-height: 30px;
+    float: left;
+}
+.btn-decrease:hover{
+    background: white;
+}
+.btn-increase{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    display: inline-block;
+    width: 35px;
+    height: 30px;
+    text-align: center;
+    border: 1px solid black;
+    line-height: 30px;
+    float: right;
+}
+.btn-increase:hover{
+    background: white;
+}
+.action-input{
+    display: inline-block;
+    width: 60px;
+    height: 30px;
+    text-align: center;
+}
+.button_delete{
+    text-decoration: none;
+}
+.fanhui{
+    width: 50px;
+    height: 30px;
+   margin-left: 1000px;
+
+}

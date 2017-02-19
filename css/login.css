@@ -1,0 +1,39 @@
+h2{
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+#formal_login{
+    width:350px;
+    height:391px;
+    background: white;
+    position: fixed;
+    right:80px;
+    top: 180px;
+    opacity:0.9;
+}
+#formal_login .formal_user{
+    display: block;
+    height: 324px;
+}
+#formal_login .x_inpute{
+    display: block;
+    width: 200px;
+    height: 30px;
+    background: #F7F7F7;
+    border: 1px solid #CCCCCC;
+    margin-bottom: 15px;
+    margin-left: 50px;
+    padding-left: 40px;
+}
+#formal_login .login_btn{
+    width: 240px;
+    height: 40px;
+    border:1px solid #DDDDDD ;
+    background: #00bbd7;
+    font-size: 18px;
+    color: white;
+    margin-left: 50px;
+    margin-top: 40px;
+    cursor: pointer;
+}

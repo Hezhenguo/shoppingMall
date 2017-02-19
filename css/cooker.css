@@ -1,0 +1,21 @@
+.subject{
+    background: url("../img/subject/subject2.jpg") no-repeat -180px -10px;
+}
+.cooker_list{
+    width: 500px;
+    height: 50px;
+    /*background: red;*/
+    line-height: 50px;
+    border-bottom: 1px solid;
+    margin-top: -180px;
+}
+.cooker_list span{
+    font-size: 25px;
+    color: black;
+}
+.new_list{
+    width: 100%;
+    height: 100%;
+    /*background: #000000;*/
+    margin-top: 30px;
+}

@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ol,ul{
+    list-style: none;
+}
+.user_title{
+    width: 150px;
+    height: 70px;
+    background: black;
+    color: white;
+    text-align: center;
+    line-height: 70px;
+}
+.header{
+   width: 100%;
+    height: 100px;
+    background: #00bad6;
+    /*margin-top: 100px;*/
+    position: relative;
+}
+.header .manage{
+    width: 650px;
+    height: 80px;
+    position: absolute;
+    top: 50%;
+    margin-top: -40px;
+}
+.header .manage li{
+    width: 150px;
+    height: 80px;
+    margin-left: 10px;
+    float: left;
+    background: red;
+    text-align: center;
+    line-height: 80px;
+}
+.manage li:hover{
+    cursor: pointer;
+    background: white;
+}
+.warp{
+    width: 1300px;
+    height: 1025px;
+    margin: 0 auto;
+}
+table{
+    border: 1px solid;
+}
+.title_list tr{
+    height: 50px;
+
+}
+.title_list td{
+    width: 200px;
+    border: 1px solid black;
+}
+.title_list{
+    text-align: center;
+}
+.shanchu a{
+    text-decoration: none;
+}
+.shanchu a:hover{
+    color: red;
+}
+.shanchu:hover{
+    cursor: pointer;
+}
+.header_right{
+    width: 600px;
+    height: 80px;
+    position: absolute;
+    top: 50%;
+    margin-top: -40px;
+    right: 0px;
+}
+.btn{
+    width: 70px;
+    height: 50px;
+    margin-left: 200px;
+    position: absolute;
+    top: 50%;
+    margin-top: -25px;
+}
+.tuichu{
+    display: inline-block;
+    width: 50px;
+    height: 40px;
+    background: #F7F7F7;
+    text-align: center;
+    line-height: 40px;
+    text-decoration: none;
+    position: absolute;
+    top: 50%;
+    margin-top: -20px;
+    right: 90px;
+    /*margin-left: 300px;*/
+}
+.biaodan{
+    display: block;
+    margin-top: 50px;
+}
+#submit1{
+    display: inline-block;
+    margin-top: 30px;
+    width: 60px;
+    height: 30px;
+}
+.user_tianjia{
+    margin-left: 100px;
+}
+.radiox{
+    display: block;
+    margin-top: 30px;
+}

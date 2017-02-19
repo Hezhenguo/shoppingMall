@@ -1,0 +1,123 @@
+.wrap{
+    position: relative;
+}
+.product-side{
+    width:100%;
+    height:400px;
+    /*background: red;*/
+}
+.product-wrap{
+    width: 100%;
+    height: 400px;
+    /*background: green;*/
+    position: relative;
+}
+.product-small{
+    width:400px;
+    height:400px;
+    background: #CCCCCC;
+    float: left;
+    border: 1px solid #00bbd7;
+    margin-right: 10px;
+}
+.product-small img{
+    width:400px;
+    height:400px;
+}
+.product-drag{
+    width: 100px;
+    height:100px;
+    background: #00bad6;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+    display: none;
+}
+.product-big{
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+    float: left;
+    display: none;
+    position: relative;
+    border: 1px solid #00bbd7;
+    z-index: 1;
+}
+#product-img{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.product-main{
+    position: absolute;
+    left: 600px;
+    top: 0px;
+    width: 600px;
+    width: 600px;
+    height: 500px;
+    /*background: red;*/
+}
+.product-main .product-introduce{
+    margin-top: 50px;
+}
+.product-main .product-price{
+    width: 400px;
+    height: 50px;
+    background: #CCCCCC;
+    font-size: 30px;
+    color: red;
+    text-align: center;
+    line-height: 50px;
+    margin-top: 20px;
+}
+.amount{
+    margin-top: 30px;
+    height: 40px;
+}
+.amount a{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    border: 1px solid black;
+    line-height: 35px;
+    float: left;
+}
+.amount a:hover{
+    background: #DDDDDD;
+}
+.amount .action-input{
+    display: inline-block;
+    width:48px;
+    height: 35px;
+    float: left;
+    border:1px solid black;
+    text-align: center;
+    font-size: 15px;
+}
+.amount span{
+    float: left;
+    font-size: 23px;
+    margin-top: 5px;
+}
+.product-main .btn-car{
+    width: 140px;
+    height:40px;
+    background: #00bbd7;
+    text-align: center;
+    line-height: 40px;
+    margin-top: 60px;
+    margin-left: 60px;
+}
+.btn-car a{
+    text-decoration: none;
+    color: #F7F7F7;
+}
+.btn-car:hover{
+    cursor: pointer;
+}

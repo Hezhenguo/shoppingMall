@@ -1,0 +1,26 @@
+.classes_div{
+    width: 600px;
+    height:40px;
+    /*background: #CCCCCC;*/
+    font-size: 20px;
+   color: black;
+    margin-top: 10px;
+}
+.classes_div a{
+    text-decoration: none;
+    display: inline-block;
+    width: 80px;
+    height:30px;
+    border: 1px solid black;
+    line-height: 30px;
+    text-align: center;
+    margin-top: 5px;
+    /*background: ;*/
+}
+.classes_div i{
+    font-size: 15px;
+}
+.subjectent{
+    background: #00bbd7;
+}
+

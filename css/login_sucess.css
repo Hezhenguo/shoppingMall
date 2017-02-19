@@ -1,0 +1,10 @@
+.uname_shundian{
+    float: right;
+    width: 145px;
+    height: 40px;
+    background: #00bad6;
+    margin-top: 17px;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+}
